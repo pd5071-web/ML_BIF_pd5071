@@ -1,3 +1,7 @@
+# pd5071
+# Uczenie maszynowe w bioinformatyce
+# Projekt 3: Przewidywanie wpływu mutacji DNA na poziom ekspresji genu
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
