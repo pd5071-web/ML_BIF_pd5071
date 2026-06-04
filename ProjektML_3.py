@@ -144,5 +144,8 @@ plt.show()
  Uzyskane wyniki (MAE = 40.45, RMSE = 46.04, R² = -0.168) wskazują jednak na niską skuteczność modelu. 
  Ujemna wartość R² oznacza, że model przewiduje gorzej niż proste wykorzystanie średniej wartości ekspresji. 
  Prawdopodobną przyczyną jest brak silnych zależności liniowych oraz utrata informacji zawartej w sekwencji DNA podczas przetwarzania danych. 
-Zamiast regresji można było spróbować zastosować bardziej zaawansowane modele nieliniowe, takie jak Random Forest Regressor, Gradient Boosting Regressor lub MLPRegressor. Te modele prawdopodobnie lepiej, by odwzorowały złożone zależności biologiczne.
+ Model ma ograniczoną jakość predykcji, a poprawić go można zwiększając liczbę danych, może dodanie bardziej istotnych cech.
+ Zamiast regresji można było spróbować zastosować bardziej zaawansowane modele nieliniowe, takie jak Random Forest Regressor, Gradient Boosting Regressor lub MLPRegressor. 
+ Te modele prawdopodobnie lepiej, by odwzorowały złożone zależności biologiczne. (PS. Sprawdziłam model z Random Forest Regressor z pomocą AI, wynik był nie wiele lepszy.) 
+ Zastosowałam Label Encoding do zamiany wartości tekstowych na liczbowe, ale lepszym rozwiązaniem byłoby użycie One-Hot Encoding (ale nie czułam się z tym drugim jeszcze zbyt pewnie).
 """
